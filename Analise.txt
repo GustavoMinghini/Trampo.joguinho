@@ -1,29 +1,33 @@
-Primeiramente renomear o projeto, pois não sera snake, mas sim batalha naval.
+﻿ Primeiramente renomear o projeto, pois não sera snake, mas sim batalha naval.
+Vou mudar
 
 Pensamos na mecanica de como o jogo vai funcionar. Sera uma batalha naval, então pensamos primeiramente nos componentes.
 
 Primeiro componenete seria o campo, no desenho do slide esta mencionando um campo de 15 por 15, mas o tamanha e meio indiferente, quando maior mais dificil.
 O campo seria uma matriz, programaticamente falando. Varios quadradinhos. Seria bem interessante que no codigo cada quagrado seja uma div. Facil manipulação. e as divs podem ser geradas dinamicamente para facilitar. Por exemplo, ao invez de ter um html com 225 divs, teriamos um codigo que iria criar cada div e colocar no loca.
-
+R:sim mas ai nesse caso eu não sei fazer , teria que ter ajuda
 Cada div precisa ser nomeada ou necessita ter uma classe com a respectiva posição dela. Exemplo class="posit-8x19", que seria como cessaremos o componemte programaticamente falando.
-
+R: seria facil assim e poderia ser fileira tipo 1x14 fileira 1 coluna 14
 Depois precisamos pensar em cada componente, exemplo, o navio ou o porta aviao. Cada um dele deve ter um tamanho diferente. O problema sera como comportar ele em cima de cada quadrado do mapa. e os formatos e a direção.
 Como vamos adicionar um avião no mapa? O avião vai ser uma imagem? Dificil. Vai ser uns quadrdinhos pintados de vermelho. pode ser.
 Se for fazer algo de arrastar e largar seria bem legal, e ja tem umas cosias prontas para isso, o problema é que vai dar trabalho.
-
+R: gosto de arrastar , pois eu não sei se sera dificil
 Precisaremos utilizar objetos em javascript, por exemplo, um objeto avião, ele tera o tamanho dele, a posição em que ele se econtra no mapa, e se ja foi abatido ou nao.
 
 Pensando na mecanica agora.
 
 Como sera colocado o avião no mapa? e quando o avião tomar um tiro ele afunda logo de cara ou e necessário acertar todas as partes do avião.
-
+R: acho que tem que acertar  todos os quadrados igual o de  tabuleiro
 Ao colocar um avião e eu quiser colocar na horizontal como vamos girar o avião?
-
+R: o programa pode ser simples, não acho que seria util isso nesse programa inical
 Ai vamos ter 2 tabuleiros um para posicionar os aviões, e receber os tiros do adiversãrio, e outro para clicar e dar os tiros.
+R: acho legal e simples um colocamos os avioes o outro a tira justo
 
+git push origin master
 Quando acertar, marcamos como vermelho, laranja, quando errar, azul escuro.... Pois é um mar.
+acho valido os avioes e barcos ficam com o quadradinho pintado de preto, recebeu tiro vermelho, mar azul VALIDO
 
 Tambem precisamos deperminar uma logica para não permitir clicar em um campo que ja foi feito um tiro. Logica para não mermitir colocar mais de um avião em um mesmo local.
-
+R: essa logica nao encaixa um if?
 
 
