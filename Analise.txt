@@ -1,0 +1,29 @@
+Primeiramente renomear o projeto, pois não sera snake, mas sim batalha naval.
+
+Pensamos na mecanica de como o jogo vai funcionar. Sera uma batalha naval, então pensamos primeiramente nos componentes.
+
+Primeiro componenete seria o campo, no desenho do slide esta mencionando um campo de 15 por 15, mas o tamanha e meio indiferente, quando maior mais dificil.
+O campo seria uma matriz, programaticamente falando. Varios quadradinhos. Seria bem interessante que no codigo cada quagrado seja uma div. Facil manipulação. e as divs podem ser geradas dinamicamente para facilitar. Por exemplo, ao invez de ter um html com 225 divs, teriamos um codigo que iria criar cada div e colocar no loca.
+
+Cada div precisa ser nomeada ou necessita ter uma classe com a respectiva posição dela. Exemplo class="posit-8x19", que seria como cessaremos o componemte programaticamente falando.
+
+Depois precisamos pensar em cada componente, exemplo, o navio ou o porta aviao. Cada um dele deve ter um tamanho diferente. O problema sera como comportar ele em cima de cada quadrado do mapa. e os formatos e a direção.
+Como vamos adicionar um avião no mapa? O avião vai ser uma imagem? Dificil. Vai ser uns quadrdinhos pintados de vermelho. pode ser.
+Se for fazer algo de arrastar e largar seria bem legal, e ja tem umas cosias prontas para isso, o problema é que vai dar trabalho.
+
+Precisaremos utilizar objetos em javascript, por exemplo, um objeto avião, ele tera o tamanho dele, a posição em que ele se econtra no mapa, e se ja foi abatido ou nao.
+
+Pensando na mecanica agora.
+
+Como sera colocado o avião no mapa? e quando o avião tomar um tiro ele afunda logo de cara ou e necessário acertar todas as partes do avião.
+
+Ao colocar um avião e eu quiser colocar na horizontal como vamos girar o avião?
+
+Ai vamos ter 2 tabuleiros um para posicionar os aviões, e receber os tiros do adiversãrio, e outro para clicar e dar os tiros.
+
+Quando acertar, marcamos como vermelho, laranja, quando errar, azul escuro.... Pois é um mar.
+
+Tambem precisamos deperminar uma logica para não permitir clicar em um campo que ja foi feito um tiro. Logica para não mermitir colocar mais de um avião em um mesmo local.
+
+
+
